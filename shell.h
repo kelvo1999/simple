@@ -109,7 +109,7 @@ typedef struct builtin
 } builtin_table;
 
 
-/* shloop.c */
+/* hsh.c */
 int hsh(info_t *, char **);
 int find_builtin(info_t *);
 void find_cmd(info_t *);
