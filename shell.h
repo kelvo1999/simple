@@ -1,5 +1,3 @@
-/*header file*/
-/*created by kelvoshisanya@gmail.com and gabermaha2@gmail.com*/
 #ifndef SHELL_H
 #define SHELL_H
 
