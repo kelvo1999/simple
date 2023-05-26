@@ -2,9 +2,9 @@
 
 /**
  * _strlen - returns the length of a string
- * @s: the string whose length to check
+ * @s: the string
  *
- * Return: integer length of string
+ * Return: integer
  */
 int _strlen(char *s)
 {
@@ -19,11 +19,11 @@ int _strlen(char *s)
 }
 
 /**
- * _strcmp - performs lexicogarphic comparison of two strangs.
- * @s1: the first strang
- * @s2: the second strang
+ * _strcmp - performs comparison of two strings.
+ * @s1: the first string
+ * @s2: the second string
  *
- * Return: negative if s1 < s2, positive if s1 > s2, zero if s1 == s2
+ * Return: negative, positive or zero
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -73,6 +73,4 @@ char *_strcat(char *dest, char *src)
 	*dest = *src;
 	return (ret);
 }
-
-/*compiled by kelvin and mahagad*/
 
