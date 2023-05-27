@@ -1,5 +1,5 @@
-#ifndef SHELL_H
-#define SHELL_H
+#ifndef shell_h
+#define shell_h
 
 #include <stdio.h> /* for printf*/
 #include <unistd.h> /* for fork, execve*/
